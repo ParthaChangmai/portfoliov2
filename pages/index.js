@@ -5,6 +5,7 @@ import { FaReact } from 'react-icons/Fa';
 import { SiJavascript, SiTailwindcss, SiMysql } from 'react-icons/Si';
 import { DiCss3Full } from 'react-icons/di';
 import { FaPhp } from 'react-icons/fa';
+import WorkList from '../components/WorkList';
 
 export default function Home() {
 	return (
@@ -45,54 +46,7 @@ export default function Home() {
 					<div className="outline-none pt-7">
 						<div className="pl-1 ">Some of my projects: </div>
 						<div className="grid md:grid-cols-4 gap-4 xl:gap-8 mt-4">
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
-								<div>
-									<img
-										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
-										alt="project1"
-										className="w-full h-full rounded-t-lg"
-									/>
-								</div>
-								<div className="px-2 flex justify-between items-center">
-									<p className="p-3">Project name</p>
-								</div>
-							</div>
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
-								<div>
-									<img
-										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
-										alt="project1"
-										className="w-full h-full rounded-t-lg"
-									/>
-								</div>
-								<div className="px-2 flex justify-between items-center">
-									<p className="p-3">Project name</p>
-								</div>
-							</div>
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
-								<div>
-									<img
-										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
-										alt="project1"
-										className="w-full h-full rounded-t-lg"
-									/>
-								</div>
-								<div className="px-2 flex justify-between items-center">
-									<p className="p-3">Project name</p>
-								</div>
-							</div>
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
-								<div>
-									<img
-										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
-										alt="project1"
-										className="w-full h-full rounded-t-lg"
-									/>
-								</div>
-								<div className="px-2 flex justify-between items-center">
-									<p className="p-3">Project name</p>
-								</div>
-							</div>
+							<WorkList />
 						</div>
 					</div>
 				</div>
