@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-   body{
-    @apply   bg-[#0f1729]
+body {
+	background: rgb(43, 49, 65);
+	background: linear-gradient(90deg, rgb(21, 24, 32) 0%, rgba(0, 0, 0, 1) 100%);
 }
-}
-
