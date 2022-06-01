@@ -43,11 +43,9 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="outline-none pt-7">
-						<button className="px-5 py-3 bg-slate-900 rounded-full">
-							Some of my projects
-						</button>
+						<div className="pl-1 ">Some of my projects: </div>
 						<div className="grid md:grid-cols-4 gap-4 mt-4">
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer">
+							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
 								<div>
 									<img
 										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
@@ -59,7 +57,7 @@ export default function Home() {
 									<p className="p-3">Project name</p>
 								</div>
 							</div>
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer">
+							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
 								<div>
 									<img
 										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
@@ -71,7 +69,7 @@ export default function Home() {
 									<p className="p-3">Project name</p>
 								</div>
 							</div>
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer">
+							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
 								<div>
 									<img
 										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
@@ -83,7 +81,7 @@ export default function Home() {
 									<p className="p-3">Project name</p>
 								</div>
 							</div>
-							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer">
+							<div className="bg-slate-900/60 rounded-lg shadow-sm shadow-indigo-600 hover:shadow-lg hover:shadow-indigo-900 cursor-pointer ease-in-out duration-500">
 								<div>
 									<img
 										src="https://media.istockphoto.com/photos/beautiful-emeraldcolored-glacial-rivers-of-iceland-taken-from-a-picture-id1202227531?s=612x612"
