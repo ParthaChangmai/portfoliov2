@@ -30,24 +30,26 @@ const Navbar = () => {
 						: ' min-w-screen flex justify-between bg-[#182647]/10 h-16 items-center font-bold  shadow-md shadow-slate-300'
 				}
 			>
-				<div className={scrollPos ? 'invisible' : 'pl-4'}>LOGO</div>
-				<div>
-					<ul className="hidden md:flex gap-3 pr-4 ">
-						<li>About</li>
-						<li>Portfolio</li>
-						<li>Contacts</li>
-					</ul>
-					<div className="md:hidden pr-4 right-0">
-						{!activeNav && (
-							<FiMenu
-								onClick={toggleNav}
-								className={
-									scrollPos
-										? 'text-4xl text-white cursor-pointer p-2 bg-gray-900 rounded-full shadow-md shadow-indigo-600'
-										: 'text-4xl text-white cursor-pointer p-2 bg-transparent '
-								}
-							/>
-						)}
+				<div className="flex container mx-auto justify-between">
+					<div className={scrollPos ? 'invisible' : 'pl-4'}>LOGO</div>
+					<div>
+						<ul className="hidden md:flex gap-3 pr-4 ">
+							<li>About</li>
+							<li>Portfolio</li>
+							<li>Contacts</li>
+						</ul>
+						<div className="md:hidden pr-4 right-0">
+							{!activeNav && (
+								<FiMenu
+									onClick={toggleNav}
+									className={
+										scrollPos
+											? 'text-4xl text-white cursor-pointer p-2 bg-gray-900 rounded-full shadow-md shadow-indigo-600'
+											: 'text-4xl text-white cursor-pointer p-2 bg-transparent '
+									}
+								/>
+							)}
+						</div>
 					</div>
 				</div>
 			</div>
